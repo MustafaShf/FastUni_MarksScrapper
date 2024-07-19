@@ -10,7 +10,7 @@ const XLSX = require('xlsx');
 
   // Log in
   await page.type('#m_inputmask_4', '23L-3095');
-  await page.type('#pass', 'MyW@rld1641');
+  await page.type('#pass', '-');
 
   // Handle reCAPTCHA
   const frames = await page.frames();
